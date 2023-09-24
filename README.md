@@ -1,6 +1,7 @@
 # midi5
 un sencillo codigo para hacer un isntrumento midi con un arduino compatible con la libreria "MIDIUSB.h" se recomienda el arduino leonardo o minipro
-Controlador MIDI Arduino
+
+# Controlador MIDI Arduino
 Este proyecto permite construir un controlador MIDI basado en Arduino. Consta de 8 botones que envían notas MIDI, un potenciómetro para controlar el volumen, otro para seleccionar entre 5 escalas diferentes y un tercer potenciómetro para ajustar la modulación.
 
 # Requisitos de Hardware:
