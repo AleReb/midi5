@@ -7,17 +7,23 @@ Este proyecto permite construir un controlador MIDI basado en Arduino. Consta de
 # Requisitos de Hardware:
 
 Arduino: Se recomienda utilizar Arduino Leonardo, Arduino Micro o cualquier otro modelo basado en el ATmega32U4 por su compatibilidad con la biblioteca MIDIUSB.
+
 Botones: 8 botones conectados en modo INPUT_PULLUP.
+
 Potenciómetros: 3 potenciómetros.
 
 # Funcionalidades:
 Botones: Al presionarlos, envían notas MIDI. Las notas base son C4 (DO), D4 (RE), E4 (MI), F4 (FA), G4 (SOL), A4 (LA), B4 (SI) y C5 (DO).
+
 Potenciómetro de Escala: Permite cambiar las notas base en intervalos de una octava, desde dos octavas abajo hasta dos octavas arriba.
+
 Potenciómetro de Volumen: Ajusta el volumen de las notas.
+
 Potenciómetro de Modulación: Controla el valor de modulación MIDI.
 
 # Conexiones:
 Botones: Conectar cada botón a los pines digitales 4-11 en el Arduino. Usar el modo INPUT_PULLUP.
+
 Potenciómetros: Conectar a los pines analógicos A0 (volumen), A1 (escala) y A2 (modulación).
 
 # Código y Uso:
